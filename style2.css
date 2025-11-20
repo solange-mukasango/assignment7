@@ -1,0 +1,96 @@
+body {
+    background: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.container {
+    width: 310px;
+    text-align: center;
+    height: 100px;
+}
+
+.logo {
+    font-family: "Brush Script MT", cursive;
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.title-text {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.fb-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1500ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.line {
+    color: #bbb;
+    margin: 15px 0;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background: #3c3a3a;
+    border: none;
+    margin-bottom: 12px;
+    color: white;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    color: #c1bfbf;
+    
+}
+
+.small-text {
+    font-size: 12px;
+    color: #ddd;
+    margin: 10px 0;
+    line-height: 18px;
+}
+
+.small-text a {
+    color: #598cff;
+    text-decoration: none;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1500ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right:  20em;
+}
+
+.signin-text {
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.signin-text a {
+    color: #1e60ff;
+    text-decoration: none;
+}
