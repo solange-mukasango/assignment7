@@ -23,7 +23,7 @@
     <form method="POST">
         <input type="text" name="username" placeholder="username" required>
         <input type="email" name="email" placeholder="email" required>
-        <input type="password" name="password" placeholder="password"  maxlength="8" minlength=""required>
+        <input type="password" name="password" placeholder="password"  maxlength="8" minlength="8"required>
         <input type="password"  name="confirm_password" placeholder="confirm_password" required>
     
 
@@ -42,7 +42,7 @@
     <input type="submit" name="submit" class="signup-btn" value="sign up">
 
     <p class="signin-text">
-        have account? <a href="login.php">sign in</a>
+        have account? <a href="login2.php">sign in</a>
     </p>
 </form>
 </div>
@@ -67,7 +67,7 @@ else {
                 ?>
                 <script>
             alert("account are created");</script><?php
-            header("location:login.php");
+            header("location:login2.php");
         }
         else{
             ?>
