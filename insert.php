@@ -55,5 +55,6 @@ if (!isset($_SESSION['username']))
         }
     }
     ?>
+    <button><a href="index.php">back</a></button>
     </body>
-    </html>i
+    </html>
