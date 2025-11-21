@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>
-        sign up into your account
+    SIGN UP TO YOUR ACCOUNT
     </h1>
     <br>
     <form action=""  method="POST">
